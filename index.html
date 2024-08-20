@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>bootstrap</title>
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="asscets/style/bootstrap.css" />
+        <!-- fonts css -->
+        <link rel="stylesheet" href="asscets/fontsicons/fontawesome-free-6.6.0-web/css/all.min.css" />
+        <!-- main css  -->
+        <link rel="stylesheet" href="asscets/style/style.css" />
+    </head>
+    <body>
+        <!-- navbar start  -->
+        <header class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="asscets/imegs/Vector.png" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#test">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="test">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                post
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                page
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn saerch" data-bs-toggle="modal" data-bs-target="#SearchModal">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button class="btn text-white ms-1 bg-primary">
+                        log in
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- search modal -->
+        <!-- Modal -->
+        <div class="modal fade" id="SearchModal" tabindex="-1" aria-labelledby="SearchModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fs-5" h1 id="SearchModalLabel">search here...</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Type your word here...</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-warning">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- start banner area  -->
+        <section class="bg-primary mt-5">
+            <div class="container">
+                <div>
+                    <img class="banner" src="asscets/imegs/Group 15.png" alt="#" />
+                </div>
+                <div id="carouselExampleAutoplaying" class="carousel slide slide-section" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="asscets/imegs/Group 9.png" class="d-block w-370 px" alt="#" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="asscets/imegs/Group 9.png" class="d-block w-370 px" alt="#" />
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Most Featured Articles area -->
+        <section class="articles">
+            <div class="container">
+                <h2 class="margin-h2">Most Featured Articles</h2>
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                        <img class="w-100" src="asscets/imegs/Mask Group1.png" alt="img" />
+                        <strong class="d-block">Lightweight Grippable and ready.</strong>
+                        <span class="d-block">Savannah Nguyen</span>
+                    </div>
+                    <div class="col-lg-4 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                        <img class="w-100" src="asscets/imegs/Mask Group2.png" alt="img" />
+                        <strong class="d-block">Lightweight Grippable and ready.</strong>
+                        <span class="d-block">Savannah Nguyen</span>
+                    </div>
+                    <div class="col-lg-4 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                        <img class="w-100" src="asscets/imegs/Mask Group2.png" alt="img" />
+                        <strong class="d-block">Lightweight Grippable and ready.</strong>
+                        <span class="d-block">Savannah Nguyen</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- start navbar tow -->
+        <section class="bg-body-tertiary">
+            <div class="container">
+                <nav class="navbar bg-body-tertiary rounded-2">
+                    <div class="container">
+                        <a class="navbar-brand"><h2>Latest Articles Topics</h2></a>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-success ms-3" type="submit">Lifestyle</button>
+                            <button class="btn btn-outline-success ms-3" type="submit">Travel</button>
+                            <button class="btn btn-outline-success ms-3" type="submit">Technology</button>
+                            <button class="btn btn-outline-success ms-3" type="submit">Search Engines</button>
+                        </form>
+                    </div>
+                </nav>
+                <div class="row justify-content-between margin-div">
+                    <div class="col-lg-8">
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 430.png" alt="img" />
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 431.png" alt="img" />
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 432.png" alt="img" />
+                    </div>
+                    <div class="col-lg-4 border rounded-2">
+                        <strong class="p-3">Recent Blog</strong>
+                        <img class="w-100 p-3" src="asscets/imegs/Mask Group11.png" alt="img" />
+                        <img class="w-100 p-3" src="asscets/imegs/Mask Group12.png" alt="img" />
+                        <img class="w-100 p-3" src="asscets/imegs/Mask Group13.png" alt="img" />
+                        <img class="w-100 p-3" src="asscets/imegs/Mask Group15.png" alt="img" />
+                    </div>
+                </div>
+                <div class="button-center">
+                    <button class="btn text-white p-2 mt-4 bg-primary button-width">
+                        Viwe All
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- start Latest Trending Video section-->
+        <section class="pb-5">
+            <div class="container">
+                <h2 class="my-5 pb-5">Latest Trending Video</h2>
+                <div class="row justify-content-between margin-div">
+                    <div class="col-lg-6">
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 444.png" alt="img" />
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 440.png" alt="img" />
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 441.png" alt="img" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--start Latest Categories section -->
+        <section class="bg-body-tertiary p-5">
+            <div class="container">
+                <h2 class="my-5 pb-5">Latest Categories</h2>
+                <div class="row justify-content-between margin-div">
+                    <div class="col-lg-3">
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 451.png" alt="img" />
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 452.png" alt="img" />
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 453.png" alt="img" />
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="w-100 pb-4" src="asscets/imegs/Group 454.png" alt="img" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--start Regular Updete latest News section-->
+        <section class="m-5 grid text-center">
+            <div class="container bg-primary rounded-2">
+                <h2 class="text-dark">bg-primary</h2>
+                <h2 class="text-white">Regular Updete latest News</h2>
+                <nav class="navbar bg-primary">
+                    <form class="canter d-flex my-2" role="search">
+                        <input class="form-control me-2 p-3" type="search" placeholder="Entar your email" aria-label="Search" />
+                        <button class="btn btn-success p-3" type="submit">Subscribe</button>
+                    </form>
+                    <div class="span-tag-margen">
+                        <span class="text-white mt-4 pb-5 d-block">Established fact will that a reader will subscripton on you services.</span>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- last section start  -->
+        <section class="bg-black mb-5">
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-2 pt-5">
+                    <ul class="text-white mb-5 pt-5">
+                        <li class="list-group-item"><h4 class="max-width">Howitworks</h4></li>
+                        <li class="list-group-item">Home</li>
+                        <li class="list-group-item">Contact</li>
+                        <li class="list-group-item">About Us</li>
+                        <li class="list-group-item">Cookie Policy</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 pt-5">
+                    <ul class="text-white mb-5 pt-5">
+                        <li class="list-group-item"><h4>Navigation</h4></li>
+                        <li class="list-group-item">Life Style</li>
+                        <li class="list-group-item">Travel</li>
+                        <li class="list-group-item">Search Engines</li>
+                        <li class="list-group-item">SEO</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 pt-5">
+                    <ul class="text-white mb-5 pt-5">
+                        <li class="list-group-item"><h4>Featured</h4></li>
+                        <li class="list-group-item">Shortcodes</li>
+                        <li class="list-group-item">Custom widgets</li>
+                        <li class="list-group-item">Try it for free</li>
+                        <li class="list-group-item">Updete Video</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 ms-5 ps-5 shadow p-3 mb-5 rounded">
+                    <div class="col-lg-2">
+                        <ul class="text-white mt-5">
+                            <li class="list-group-item"><h4>Subscribe</h4></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-8 ms-4 ps-2">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    </div>
+                    <div class="col-lg-12 ms-4 ps-2 text-white my-3">
+                        <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

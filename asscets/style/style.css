@@ -1,0 +1,46 @@
+.navbar {
+    background-color:#F7F8FE;
+    margin: 5px 0 100px;
+}
+.navbar .search {
+    background-color:#F0F2F5;
+}
+.banner {
+    margin-top: -80px;
+}
+.carousel {
+    margin-left: 100px;
+    position: relative;
+}
+.margin {
+    margin-left: 140px;
+}
+.slide-section {
+    position: absolute;
+    top: 270px;
+    left: 20px;
+}
+.px {
+   margin: 0 150px;
+}
+.margin-h2 {
+    margin: 70px 0 30px;
+    font-size: 35;
+    font-weight: 700;
+}
+.margin-div {
+    margin-top: -50px;
+}
+.button-center {
+    margin-left:40%;
+}
+.button-width {
+    width: 150px;
+    margin-bottom: 70px;
+}
+.canter {
+    margin-left: 36%;
+}
+.span-tag-margen {
+    margin-left: 30%;
+}
